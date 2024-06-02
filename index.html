@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de compras</h1>
+    </header>
+    <main>
+     
+        <div class="container">
+
+        
+            <article class="producto-container">
+
+                    <h3>Polo cuello camisa basico</h3>
+                    <img src="./img/polo-negro.png" alt="img">
+                    <p>Precio: S/. 50.00</p>
+                    <div class="buttons">
+                        <button id="btn-del" class="btn" type="submit"> - </button>
+                        <button id="btn-add" class="btn" type="submit"> + </button>
+                    </div>
+                   
+
+            </article>
+            <form class="carrito">
+                <h3>Resumen de compra</h3>
+                <div>
+                    <span>Cantidad: <span id="cant">0</span> </span>
+                    <br>
+                    <span>Total: S/. <span id="total">0</span></span>
+                </div>
+                <button id="btn-comprar" class="btn" type="submit">Realizar compra</button>
+            </form>
+        </div>
+    </main>
+    
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
